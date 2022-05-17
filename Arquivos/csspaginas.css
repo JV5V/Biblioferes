@@ -6,39 +6,73 @@
   body {
             background-image: url(Imagens/imagem-fundo.jpg)
         }
-        h1 {
+    header {
             background-color: #704f32e8;
-            border-radius: 5px;
-            margin: auto;
-            padding: 15px;
-            color: white;
-            font-size: 38px;
+            border-radius: 6px;
             opacity: 95%;
             text-align: center;
         }
-        hr {
+    h1 {
+            padding: 15px;
+            font-size: 38px;
+            color: white;
+            margin: auto;
+        }
+    nav {
+            background-color:#61442c98;
+            border-radius: 6px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-style: bold;
+            padding: 10px;
+            font-size: 25px;
+            font-family:  'Bebas Neue', cursive;
+            transition-duration: .5s;
+        }
+        nav > a:hover {
+            background-color: #83664e98;
+            border-radius: 6px;
+        }
+    hr {
             color: white;
         }
-        main {
+    main {
             background-color: white;
-            width: 850px;
             padding: 10px;
             margin: auto;
-            border-radius: 15px;
-            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+            border-radius: 12px;
+            box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.397);
             opacity: 90%;
+            min-width: 320px;
+            max-width: 1000px;
+            min-height: 1000px;
         }
-        h2, h3 {
+    h2, h3 {
            font-family:  'Bebas Neue', cursive;
            font-size: 36px;
         }
-        h4 {
+    h4 {
             text-align: center;
         }
-        p {
+    p {
             text-align: justify;
             text-indent: 10px;
         }
-        a {
-            color: black;
+    table,td,th {
+            border: 2px solid black;
+            padding: 8px;
+            margin: auto;
+            text-align: center;
         }
+    table {
+            width: 700px;
+            border-collapse: collapse;
+        }
+    html {
+            scroll-behavior: smooth;
+          }
+    img {
+              width: 100%;
+          }
