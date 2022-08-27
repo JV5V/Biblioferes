@@ -101,3 +101,8 @@
     .search-bar {
         justify-content: center;
     }
+    a {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+    }

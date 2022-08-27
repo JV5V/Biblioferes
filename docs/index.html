@@ -8,15 +8,19 @@
     <title>Biblioferes</title>
 
     <link rel="stylesheet" href="csspaginas.css">
+    <link rel="stylesheet" href="cssflexbox.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        p {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Biblioferes</h1>
         <nav>
-            <a href="Paginaprincial.html" rel="prev">Página Inicial</a>
+            <a href="index.html" rel="prev">Página Inicial</a>
             <a href="Acervo.html">Acervo</a>
             <a href="horarios.html">Horários</a>
         </nav>
@@ -24,8 +28,22 @@
     <br>
     <main>
         <h2>Bem-vindo à Biblioferes</h2>
-        <br>
 
+        <div class="container">
+            <div class="box2" id="acervo">
+                <a href="Acervo.html"><img src="Imagens/acervo.jpg" alt=""></a>
+        </div>
+            <div class="box2" id="galeria">
+            <a href="galeria.html"><img src="Imagens/galeria.jpg" alt=""></a>
+        </div>
+            <div class="box2" id="links-uteis">
+                <a href="links-uteis.html"><img src="Imagens/links-uteis.jpg" alt=""></a>
+        </div>
+            <div class="box2" id="site-af">
+            <a href="https://www.cps.sp.gov.br/etecs/etec-prefeito-alberto-feres/"><img src="Imagens/site-af.jpg" alt=""></a>
+        </div>
+        </div>
+        <p>Biblioferes é um site da Etec Prefeito Alberto Feres</p>
     </main>
 </body>
 </html>
